@@ -10,7 +10,7 @@
     }
     enum Season
     {
-        Summer, Winter, Spring, Autumn
+        summer, winter, spring, autumn
     }
 
     [Flags]
@@ -36,7 +36,7 @@
 
             #region Q2
             //Console.Write("Enter a season: ");
-            //string input = Console.ReadLine();
+            //string input = Console.ReadLine().ToLower();
 
             //Season season;
             //while (!Enum.TryParse(input, true, out season))
@@ -47,19 +47,19 @@
 
             //switch (season)
             //{
-            //    case Season.Summer:
+            //    case Season.summer:
             //        Console.WriteLine("December, January, February");
             //        break;
-            //    case Season.Winter:
+            //    case Season.winter:
             //        Console.WriteLine("September, October, November");
             //        break;
-            //    case Season.Spring:
+            //    case Season.spring:
             //        Console.WriteLine("March, April, May");
             //        break;
-            //    case Season.Autumn:
+            //    case Season.autumn:
             //        Console.WriteLine("September, October, November");
             //        break;
-            //} 
+            //}
             #endregion
 
             #region Q3
